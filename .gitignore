@@ -1,0 +1,22 @@
+# Local Environment Secrets
+.env
+
+# Database - Keep your local data private
+nexus.db
+*.db
+
+# Streamlit-specific Clutter
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Virtual Environments
+venv/
+env/
+
+# Data analysis exports (if you save Excel/CSV from the dashboard)
+*.csv
+*.xlsx
